@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 import {
-  NavLink
+  Link
 } from "react-router-dom";
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <NavLink to="/">Back</NavLink>
+        <Link to="/">Back</Link>
         <h2>Resume</h2>
         <p>Mauris sem velit, vehicula eget sodales vitae,
         rhoncus eget sapien:</p>

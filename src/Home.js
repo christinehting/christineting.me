@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-    NavLink
+    Link
 } from "react-router-dom";
 
 class Home extends Component {
@@ -34,7 +34,7 @@ class Home extends Component {
                         <li>Partner support and liaison</li>
                         <li>User education and outreach</li>
                     </ul>
-                    <p class="heading3">You can find more details on my <NavLink to="/resume">resume</NavLink>.</p>
+                    <p class="heading3">You can find more details on my <Link to="/resume">resume</Link>.</p>
                     <p><span class="heading4">Outside of work,</span> I love to rest and I love to play even more. I currently live in beautiful San Diego, CA with my amazing partner, Kathryn, and our two cats. When I'm not participating in software development or community building, you'll likely find me checking out the latest foodie spots with my friends and family, doing aerial photography and videography with my DJI Mavic Pro, experimenting in the kitchen with various food projects (and subsequently devouring said food), attending live music or comedy shows, exploring nature and the world at large, studying philosophy and human nature through books, podcasts and movies, and trying my best to live a lifestyle that promotes longevity and vitality through sleep, nutrition and fitness. </p>
 
                     <p class="heading3">You can learn more about my interests here:</p>
