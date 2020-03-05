@@ -1,0 +1,78 @@
+
+/* Page Level Styles */
+body{
+    font-family: 'Scope One', serif;
+    margin: 25px;
+}
+
+/* Text styles */
+.heading{
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.heading2{
+    font-size: 32px;
+    font-weight: 600;
+}
+.heading3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.heading4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.p-text{
+    font-size: 18px;
+}
+
+/* Positioning */
+.pos-center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+/* Margins */
+.m-top-50{
+    margin-top: 50px;   
+}
+
+/* Sizing */
+.flex-grid-thirds {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.flex-grid-quarters {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.w-max-750{
+    max-width: 750px;
+}
+.w-max-850{
+    max-width: 850px;
+}
+
+/* List Styles */
+.ul-2-col{
+    max-width: 850px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ul-2-col>li{
+    flex: 1 1 295px;
+    margin-right: 25px;
+}
