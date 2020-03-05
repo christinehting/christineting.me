@@ -14,7 +14,7 @@ import "./Main.css";
 class Main extends Component {
     render() {
         return (
-            <HashRouter basename='/docs'>
+            <HashRouter>
                 <div>
                     <div className="content">
                         <Route exact path="/" component={Home} />
