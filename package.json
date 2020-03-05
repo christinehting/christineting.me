@@ -2,12 +2,11 @@
   "name": "christineting.me",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://christinehting.github.io/christineting.me",
+  "homepage": "http://christineting.me",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
-    "gh-pages": "^2.2.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2",
