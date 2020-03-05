@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import {
     Route,
-    HashRouter
+    BrowserRouter
 } from "react-router-dom";
 
 
@@ -14,14 +14,14 @@ import "./Main.css";
 class Main extends Component {
     render() {
         return (
-            <HashRouter>
+            <BrowserRouter basename={window.location.pathname || ''}>
                 <div>
                     <div className="content">
                         <Route exact path="/" component={Home} />
                         <Route path="/resume" component={Resume} />
                     </div>
                 </div>
-            </HashRouter>
+            </BrowserRouter>
         );
     }
 }
